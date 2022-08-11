@@ -5,27 +5,290 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>首頁</title>
+  <title> 首頁 </title>
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  />
+
 </head>
 
+
 <body>
-  <header class="header">
-    這是 header
-  </header>
+
+  <div class="header bg-primary">
+    <div class="container">
+
+      <a href="index.html">
+        <img src="./assets/images/logo-white.png" alt="logo">
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">系列鏡框</a>
+          </li>
+          <li>
+            <a href="store.html">門市據點</a>
+          </li>
+          <li>
+            <a href="#">部落格</a>
+          </li>
+          <li>
+            <a href="faq.html">常見問題</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="ham-icon">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </a>
+
+    </div>
+
+    <div class="dropdown">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">系列鏡框</a>
+          </li>
+          <li>
+            <a href="store.html">門市據點</a>
+          </li>
+          <li>
+            <a href="#">部落格</a>
+          </li>
+          <li>
+            <a href="faq.html">常見問題</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </div>
+
 
   
-<h1>
-  這是一段話
-</h1>
+<div class="banner">
+    <div class="container">
+        <div class="title">
+            <span class="primary-Dark">Promise-Desert 2020 早春系列</span>
+            <h1 class="primary-Dark font-Bold mb">看得清，才能看得遠</h1>
+            <a href="#" class="white font-sm font-Med bg-primary a-base">立即購買</a>
+        </div>
+    </div>
+</div>
 
-<div class="box"></div>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+<section class="work bg-secondary py-lg">
+    <div class="container">
+        <h2 class="font-Center font-Center primary-Dark font-lg font-Bold mb8">用專業的心，做專業的事</h2>
+        <ul>
+            <li>
+                <span class="material-symbols-outlined primary-Dark mb4">paid</span>
+                <h3 class="primary-Dark font-md font-Bold mb2">單一價格</h3>
+                <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </li>
+            <li>
+                <span class="material-symbols-outlined primary-Dark mb4">schedule</span>
+                <h3 class="primary-Dark font-md font-Bold mb2">20 分鐘即可取件</h3>
+                <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            </li>
+            <li>
+                <span class="material-symbols-outlined primary-Dark mb4">favorite</span>
+                <h3 class="primary-Dark font-md font-Bold mb2">安心售後服務</h3>
+                <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            </li>
+            <li>
+                <span class="material-symbols-outlined primary-Dark mb4">voicemail</span>
+                <h3 class="primary-Dark font-md font-Bold mb2">關於鏡片</h3>
+                <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="glasses container py-lg">
+    <h2 class="font-Center primary-Dark font-lg font-Bold mb12">經典系列鏡框</h2>
+    <ul>
+        <li>
+            <img class="mb2" src="assets/images/home-section3-1.png" alt="產品照">
+            <h3 class="font-Center font-lg primary font-Black font-Italic">
+                <a href="#" class="primary a-base">OPTICAL</a>
+            </h3>
+        </li>
+        <li>
+            <img class="mb2" src="assets/images/home-section3-2.png" alt="產品照">
+            <h3 class="font-Center font-lg primary font-Black font-Italic">
+                <a href="#" class="primary a-base">SUNGLASSES</a>
+            </h3>
+        </li>
+        <li>
+            <img class="mb2" src="assets/images/home-section3-3.png" alt="產品照">
+            <h3 class="font-Center font-lg  font-Black font-Italic">
+                <a href="#" class="primary a-base">FUNCTIONAL</a>
+            </h3>
+        </li>
+    </ul>
+</section>
+
+<section class="design py-lg">
+    <h2 class="font-Center white font-lg font-Bold mb12">聯名設計鏡框</h2>
+    <ul class="container">
+        <li>
+            <img class="pic-lg" src="assets/images/home-section4-1.png" alt="A款">
+            <img class="pic-sm" src="assets/images/home-section4-1-sm.png" alt="A款手機圖">
+            <h3 class="font-Center font-lg  font-Black font-Italic">
+                <a href="#" class="primary a-base bg-white py1">DOUBLE A+</a>
+            </h3>
+        </li>
+        <li>
+            <img class="pic-lg" src="assets/images/home-section4-2.png" alt="B款">
+            <img class="pic-sm" src="assets/images/home-section4-2-sm.png" alt="B款手機圖">
+            <h3 class="font-Center font-lg  font-Black font-Italic">
+                <a href="#" class="primary a-base bg-white py1">YOUTH</a>
+            </h3>
+        </li>
+    </ul>
+</section>
+
+<section class="customer container py-lg">
+    <h2 class="font-Center primary-Dark font-lg font-Bold mb12">顧客推薦</h2>
+    <ul>
+        <li>
+            <img class="mb4" src="assets/images/home-section5-1.png" alt="顧客1">
+            <div class="text">
+                <p class="fnot-Cn font-Med mb2">Jessy</p>
+                <p class="mb18">眼鏡品質優良，下次還會想來這邊購買！</p>
+                <p class="gray">2021/06/20</p>
+            </div>
+        </li>
+        <li>
+            <img class="mb4" src="assets/images/home-section5-2.png" alt="顧客2">
+            <div class="text">
+                <p class="fnot-Cn font-Med mb2">凱倫</p>
+                <p class="mb18">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                <p class="gray">2021/04/18</p>
+            </div>
+        </li>
+        <li>
+            <img class="mb4" src="assets/images/home-section5-3.png" alt="顧客3">
+            <div class="text">
+                <p class="fnot-Cn font-Med mb2">悠悠</p>
+                <p class="mb18">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                <p class="gray">2020/12/25</p>
+            </div>
+        </li>
+        <li>
+            <img class="mb4" src="assets/images/home-section5-4.png" alt="顧客4">
+            <div class="text">
+                <p class="fnot-Cn font-Med mb2">Kyuan</p>
+                <p class="mb18">服務很好，品質沒有任何問題，非常喜歡。</p>
+                <p class="gray">2020/10/31</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<div class="connection py-lg bg-secondary">
+    <div class="connectionText">
+        <h2 class="font-Center primary-Dark font-lg font-Bold mb12">聯絡我們</h2>
+        <p class="font-sm mb6">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+        <form>
+            <label for="name" class="mb2">姓名</label>
+            <input type="text" id="name" name="name" placeholder="王小明" class="bg-secondary mb4">
+            <label for="tle" class="mb2">聯絡電話</label>
+            <input type="tel" id="tel" name="tel" placeholder="0912-345-678" class="bg-secondary mb4">
+            <label for="email" class="mb2">電子郵件</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" class="bg-secondary mb4">
+            <label for="message" class="mb2">意見反應</label>
+            <textarea id="message" name="message" rows="6" class="bg-secondary mb4">請輸入您的意見</textarea>
+        <div class="check">
+            <input name="agree" id="agree" type="checkbox">  
+            <label for="agree">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>       
+        </div>
+                <input name="submit" type="submit" value="確認送出" class="submit font-Bold white bg-primary">
+        
+        </form>
+    </div>
+   
+</div>
+
+    <div class="footer bg-primary">
+      <div class="container">
+        <div class="link">
+
+          <ul class="linkText">
+            <li>
+              <a href="index.html">首頁</a>
+            </li>
+            <li>
+              <a href="#">系列鏡框</a>
+            </li>
+            <li>
+              <a href="store.html">門市據點</a>
+            </li>
+            <li>
+              <a href="#">部落格</a>
+            </li>
+            <li>
+              <a href="faq.html">常見問題</a>
+            </li>
+          </ul>
+
+
+
+
+          <ul class="icon">
+            <li>
+              <a href="#">
+                <img src="/assets/images/ic-social-fb.png" alt="連結臉書">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/assets/images/ic_social_ig.png" alt=連結IG "">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/assets/images/ic_social_line.png" alt="連結line">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+        <ul class="contact">
+          <li>
+            <span class="material-symbols-outlined white font-size-48">call</span>
+            <a href="tel:+886-800000000" class="white">0800-000-000</a>
+          </li>
+          <li>
+            <span class="material-symbols-outlined white font-size-48">mail</span>
+            <a href="mailto:glasses@business.com" class="white">glasses@business.com</a>
+          </li>
+        </ul>
+
+        <div class="copyright white">
+          <p>Copyright © 2020 Glasses.All rights reserved.</p>
+          <ul>
+            <li>
+              <a href="#">隱私權政策</a>
+            </li>
+            <li>
+              <a href="#">服務條款</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
