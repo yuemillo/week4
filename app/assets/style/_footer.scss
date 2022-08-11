@@ -1,0 +1,102 @@
+
+.footer{
+    max-width: 100vw;
+    padding: 48px 0 32px 0;
+        @include custom(){
+            padding: 24px 0; 
+    }
+    .container:first-child{
+        @include custom(){
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+         }	
+	}
+
+    a{
+        text-decoration: none;
+        color: white;
+    } 
+    .link{
+        display: flex;
+	    align-items: center;
+        justify-content: space-between;
+            .linkText{
+                display: flex;
+                column-count: 5;
+                gap: 48px;
+                    @include custom(){
+                        display: none; 
+                    }
+            }       
+            .icon{
+                display: flex;
+                gap: 32px;
+                @include pad(){
+                    gap: 16px;
+                }
+                @include iphone(){
+                    gap: 4px;
+                }
+                    img{
+                        width: 48px;
+                            @include pad(){
+                                width: 40px;
+                            }
+                            @include custom(){
+                                width: 24px;
+                            }   
+                    }
+            }  
+    }
+      
+    .contact{
+        li{
+            display: flex;
+	        align-items: center;
+        }
+        a{
+            font-size: 36px;
+            margin-left: 22px;
+            @include custom(){
+                font-size: 16px;
+		        margin-left: 11px;
+            }   
+        }
+        span{
+            font-size: 48px;
+            @include custom(){
+                font-size: 24px;
+            }   
+        }
+    }
+    .copyright{
+        font-family: 'Roboto', sans-serif; 
+        border-top: 1px solid #fff;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        margin-top: 32px;
+            @include custom(){
+                width: 100%;
+                flex-direction: column;
+                padding-top: 16px;
+                margin-top: 24px;
+            }
+        ul{
+            display: flex;
+            gap: 48px;
+                @include custom(){
+                    flex-direction: column;
+                    gap:0;
+                }
+            li a{
+                font-size: 14px;
+            }
+        }
+    }
+     
+}
+
+

@@ -1,0 +1,30 @@
+@mixin hide-text{
+	text-indent: 110%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@mixin lg{
+    @media (max-width: 996px){
+        @content
+    }
+}
+
+@mixin pad{
+    @media (max-width: 768px){
+        @content
+    }
+}
+
+@mixin custom{
+    @media (max-width: 672px){
+        @content
+    }
+}
+
+
+@mixin iphone{
+    @media (max-width: 375px){
+        @content
+    }
+}

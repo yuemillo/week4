@@ -1,0 +1,122 @@
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+	padding: 0 12px;
+		
+}
+
+.primary{
+	color: $primary;
+}
+.primary-Dark{
+	color: $primary-Dark;
+}
+.white{
+	color: white;
+}
+.gray{
+	color: $gray;
+}
+.bg-white{
+	background-color: #fff;
+}
+.bg-black{
+	background-color: #000;
+}
+
+.bg-primary{
+	background-color: $primary;
+}
+
+.bg-secondary{
+	background-color: $secondary;
+}
+
+.my1{
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+}
+.py1{
+	padding: $spacer*2 0;
+}
+.py4{
+	padding: $spacer*4 0;
+}
+
+.py-lg{
+	padding-top: $spacer*20;
+	padding-bottom: $spacer*20;
+}
+.mb{
+	margin-bottom: $spacer;
+}
+.mb2{
+	margin-bottom: $spacer*2;
+}
+.mb4{
+	margin-bottom: $spacer*4;
+}
+.mb6{
+	margin-bottom: $spacer*6;
+}
+.mb8{
+	margin-bottom: $spacer*8;
+}
+.mb10{
+	margin-bottom: $spacer*10;
+}
+.mb12{
+	margin-bottom: $spacer*12;
+}
+.mb18{
+	margin-bottom: $spacer*18;
+}
+
+
+a:hover{
+	opacity: 0.8;
+}
+.font-lg{
+	font-size: 48px;
+}
+.font-md{
+	font-size: 24px;
+}
+.font-sm{
+	font-size: 20px;
+}
+
+.fnot-Cn{
+	font-family: $font-noto;
+}
+
+.font-Med{
+	font-weight: 500;
+}
+
+.font-Bold{
+	font-weight: 700;
+}
+
+.font-Black{
+	font-weight: 900;
+}
+
+.font-Italic{
+	font-style: italic;
+}
+
+.font-Center{
+	text-align: center;
+}
+
+.font-size-48{
+	font-size: 48px;
+}
+.a-base{
+	display: block;
+	text-decoration: none;
+}
+.d-flex{
+	display: flex;
+}

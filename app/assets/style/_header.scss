@@ -1,0 +1,115 @@
+.header{
+    @include custom(){
+        padding: 0 0;
+        }
+    @include iphone(){
+        position: relative;
+
+    }
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+    @include pad{
+        max-width: 696px;
+    }
+    @include custom(){
+        flex-direction: column;	
+        padding: 0 0;            
+    }
+    @include iphone(){
+        padding: 0 12px;
+        flex-direction: row;
+    }
+    img{
+        width: 80px;
+        height: 72px;
+        object-fit: contain;
+    }
+    
+    
+
+
+
+
+
+nav{
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    @include custom(){
+        display: block;
+        padding: 12px 0;   
+    }
+    @include iphone(){
+        font-size: 16px;
+    }
+}
+    @include custom(){
+        width: 100%;
+    } 
+
+}  
+ul{
+display: flex;
+gap: 64px;
+
+    @include custom(){
+            flex-wrap: wrap;
+            gap: 0px
+    }
+    li{
+        @include custom(){
+        width: 50%;
+
+        border: 1px solid #fff;
+        text-align: center;                     
+        } 
+    } 
+        @include iphone(){
+            display: none;
+        }                  
+} 
+
+
+        .ham-icon{
+            display: none;
+                @include iphone(){
+                    display: block;
+                    color: #fff;
+                }
+            }
+    
+
+} 
+
+.dropdown{
+    display: none;
+    @include iphone(){
+        display: block;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        max-height: 0px; 
+        transition: all 0.8s;
+        overflow: hidden;
+        z-index: 10;
+        &.active {
+            max-height: 228px;
+          }      
+                li a {
+                    display: block;
+                    background: $primary;
+                    color: #FFFFFF;
+                    border-top: 1px solid #FFFFFF;
+                    padding: 16px 0;
+                    text-decoration: none;
+                    opacity: 1;   
+                }  
+    }    
+    }
+   
+}       
